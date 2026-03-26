@@ -28,5 +28,6 @@ if st.button("Predict"):
     if prediction[0]==1:
         st.error("you may have diabetes")
     else:
-        st.success("you are safe from diabetes")
+        st.success("good news,you are safe from diabetes")
+        
         
